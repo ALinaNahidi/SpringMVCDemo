@@ -1,7 +1,8 @@
 package springdemo;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Student {
     private String firstName;
@@ -9,9 +10,9 @@ public class Student {
     private String country;
     private String favoriteLanguage;
 
-    private ArrayList<String> operatingSystems;
+    private List<String> operatingSystems;
 
-    private LinkedHashMap<String, String> listOfCountries;
+    private Map<String, String> listOfCountries;
     public Student() {
         listOfCountries = new LinkedHashMap<>();
         listOfCountries.put("IN","india");
@@ -46,11 +47,11 @@ public class Student {
     }
 
 
-    public LinkedHashMap<String, String> getListOfCountries() {
+    public Map<String, String> getListOfCountries() {
         return listOfCountries;
     }
 
-    public void setListOfCountries(LinkedHashMap<String, String> listOfCountries) {
+    public void setListOfCountries(Map<String, String> listOfCountries) {
         this.listOfCountries = listOfCountries;
     }
 
@@ -62,11 +63,11 @@ public class Student {
         this.favoriteLanguage = favoriteLanguage;
     }
 
-    public ArrayList<String> getOperatingSystems() {
+    public List<String> getOperatingSystems() {
         return operatingSystems;
     }
 
-    public void setOperatingSystems(ArrayList<String> operatingSystems) {
+    public void setOperatingSystems(List<String> operatingSystems) {
         this.operatingSystems = operatingSystems;
     }
 }
