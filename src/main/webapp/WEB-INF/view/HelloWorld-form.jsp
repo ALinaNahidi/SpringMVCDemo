@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <body>
 <h2>HWF</h2>
 <form action="processedform1" method="GET">

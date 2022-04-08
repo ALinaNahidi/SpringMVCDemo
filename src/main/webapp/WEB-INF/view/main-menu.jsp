@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <body>
 <h2>Main menu file</h2>
 <a href="hello/showform">Go to hello world form</a>

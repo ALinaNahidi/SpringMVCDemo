@@ -2,7 +2,6 @@ package springdemo.validation;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
-import javax.validation.constraints.Null;
 
 public class CourseCodeConstraintValidator implements ConstraintValidator<CourseCode,String> {
 
@@ -10,7 +9,6 @@ public class CourseCodeConstraintValidator implements ConstraintValidator<Course
 
     @Override
     public void initialize(CourseCode constraintAnnotation) {
-//        ConstraintValidator.super.initialize(constraintAnnotation);
           coursePrefix=constraintAnnotation.value();
     }
 
