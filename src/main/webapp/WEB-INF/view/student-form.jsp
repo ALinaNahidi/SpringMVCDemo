@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
 <%@ page isELIgnored="false" %>
+<title> Student form </title>
 </head>
 <body>
 

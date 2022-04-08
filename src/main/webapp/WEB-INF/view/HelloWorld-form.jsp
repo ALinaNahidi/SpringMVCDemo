@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<title> Student form </title>
+</head>
 <body>
 <h2>HWF</h2>
 <form action="processedform1" method="GET">

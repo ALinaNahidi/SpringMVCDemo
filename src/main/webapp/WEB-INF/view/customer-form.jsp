@@ -3,7 +3,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-
 <title> Customer form </title>
 <style>
     .error {color:red}

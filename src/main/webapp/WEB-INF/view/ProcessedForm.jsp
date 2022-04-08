@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
 <%@ page isELIgnored="false" %>
+<title> Processed form </title>
 </head>
 <body>
 <h2>This is Hello World Form</h2>
