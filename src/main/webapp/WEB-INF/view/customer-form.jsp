@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<i>Fill out the form. Asterisk(*) means required.</i>
+<em>Fill out the form. Asterisk(*) means required.</em>
 
 <form:form action="processForm" modelAttribute="customer">
 
